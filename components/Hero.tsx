@@ -2,7 +2,7 @@ import React from 'react'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import MagicButton from './ui/MagicButton'
-import { FaLocationArrow } from 'react-icons/fa'
+import { FaDownload } from 'react-icons/fa6'
 
 const Hero = () => {
     return (
@@ -30,8 +30,8 @@ const Hero = () => {
                     {/* Magic Button Tailwind CSS buttons */}
                     <a href="#about">
                         <MagicButton
-                            title='Show my work'
-                            icon={<FaLocationArrow />}
+                            title='Download CV'
+                            icon={<FaDownload />}
                             position='right'
                             otherClasses={''} />
                     </a>
