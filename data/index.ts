@@ -205,13 +205,16 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      link: "https://github.com/fatGubari"
     },
-    {
-      id: 2,
-      img: "/twit.svg",
-    },
+    // {
+    //   id: 2,
+    //   img: "/twit.svg",
+    //   link: ""
+    // },
     {
       id: 3,
       img: "/link.svg",
+      link: "https://www.linkedin.com/in/fatimabdullahmohammed/"
     },
   ];
